@@ -7,9 +7,9 @@
 ### Development
 
 ```bash
-$ npm i
-$ npm run dev
-$ open http://localhost:7001/
+npm i
+npm run dev
+open http://localhost:7001/
 ```
 
 Don't tsc compile at development mode, if you had run `tsc` then you need to `npm run clean` before `npm run dev`.
@@ -17,8 +17,8 @@ Don't tsc compile at development mode, if you had run `tsc` then you need to `np
 ### Deploy
 
 ```bash
-$ npm run tsc
-$ npm start
+npm run tsc
+npm start
 ```
 
 ### Npm Scripts
@@ -31,3 +31,8 @@ $ npm start
 
 - Node.js 8.x
 - Typescript 2.8+
+
+### Git remote
+
+Team: git@github.com:cram-school/funkey-egg.git
+Person: <https://github.com/Lokep/funkey-egg>
